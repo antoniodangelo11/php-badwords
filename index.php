@@ -2,8 +2,10 @@
     $testo = $_POST['testo'];
 
     $censura = $_POST['censura'];
+
+    $sostituzione = '***';
     
-    $testo_censurato = str_replace($censura, '***', $testo, $num_censura);
+    $testo_censurato = str_replace($censura, $sostituzione, $testo, $num_censura);
 ?>
 
 <!DOCTYPE html>
