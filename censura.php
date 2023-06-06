@@ -1,3 +1,0 @@
-<?php
-    $censura = 'Ciao';
-?>

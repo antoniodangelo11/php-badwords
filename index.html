@@ -7,10 +7,13 @@
     <title>PHP Badwords</title>
   </head>
   <body>
-    <form action="censura.php">
-      <input type="text" name="" placeholder="" />
-      <button type="submit"></button>
-      <button type="reset"></button>
+    <form action="index.php" method="POST">
+      <textarea name="testo" id="" cols="30" rows="10"></textarea>
+      <div>
+        <input type="text" name="censura" placeholder="" />
+        <button type="submit">Invia</button>
+        <button type="reset">Reset</button>
+      </div>
     </form>
   </body>
 </html>
